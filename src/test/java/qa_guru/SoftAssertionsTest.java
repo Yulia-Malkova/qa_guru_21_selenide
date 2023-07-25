@@ -22,8 +22,5 @@ public class SoftAssertionsTest extends TestData {
         $(".markdown-body").$(byText("Soft assertions")).click();
         $(".markdown-body").$(byText("3. Using JUnit5 extend test class:"))
                 .sibling(0).shouldHave(text(expectedCode));
-
-
-
     }
 }
